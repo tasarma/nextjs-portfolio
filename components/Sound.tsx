@@ -10,7 +10,7 @@ const Sound: React.FC = () => {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.play().catch(error => {
+      audioRef.current.play().catch( () => {
         setIsPlaying(false);
       });
     }

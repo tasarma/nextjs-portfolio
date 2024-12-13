@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import clsx from 'clsx'
-import { Github, Home, Linkedin, NotebookText, Palette, Library, User, type LucideIcon, Mail } from 'lucide-react'
+import { Github, Home, Linkedin, Palette, Library, User, type LucideIcon, Mail } from 'lucide-react'
 import { NavButtonProps, IconType } from '@/types/navigation'
 import ResponsiveComponent from '../ResponsiveComponent'
 
