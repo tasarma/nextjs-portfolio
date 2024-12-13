@@ -65,7 +65,7 @@ export default function ContactForm() {
           id: toastId,
         })
       },
-      (error) => {
+      () => {
         toast.error("There was an error sending your message, please try again later!", {
           id: toastId,
         })

@@ -24,7 +24,7 @@ const AboutDetails = () => {
             experiences, all while ensuring each creation is not just functional
             but also visually captivating.
             <br /> <br />
-            When I'm not casting digital magic, I take on the guise of a
+            When I am not casting digital magic, I take on the guise of a
             Geomatics Engineer, diving into topics like 3D Reconstruction, Image
             Processing, and WebGIS...
             <br /> <br />

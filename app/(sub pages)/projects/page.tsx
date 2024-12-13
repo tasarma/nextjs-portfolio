@@ -8,9 +8,6 @@ import { projectsData } from "@/lib/data";
 const Staff = dynamic(() => import("@/components/models/Staff"), {
   ssr: false,
 });
-const Hat= dynamic(() => import("@/components/models/HatModel"), {
-  ssr: false,
-});
 
 export const metadata = {
   title: "Projects",
