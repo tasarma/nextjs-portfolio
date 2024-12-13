@@ -1,0 +1,71 @@
+.post-content {
+    @apply text-white text-base;
+}
+
+.post-content h1 {
+    @apply font-bold  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent;
+}
+
+.post-content h2 {
+    @apply text-white text-xl md:text-2xl text-left w-full capitalize;
+}
+
+.post-content h3 {
+    @apply text-white text-lg md:text-xl text-left w-full capitalize;
+}
+
+.post-content h4 {
+    @apply text-white text-base md:text-lg text-left w-full capitalize;
+}
+
+.post-content a {
+    @apply text-blue-500 no-underline;
+}
+
+.post-content a:hover {
+    @apply underline text-blue-700;
+}
+
+.post-content ul, .post-content ol {
+    @apply ml-6 list-disc font-light;
+}
+
+.post-content ul li, .post-content ol li {
+    @apply mb-2;
+}
+
+.post-content blockquote {
+    @apply my-4 p-4 border-l-4 border-blue-600 bg-gray-100 italic text-white;
+}
+
+.post-content pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded overflow-x-auto font-mono;
+}
+
+.post-content code {
+    @apply rounded font-mono text-white;
+}
+
+.post-content table {
+    @apply w-full border-collapse my-4;
+}
+
+.post-content table th, .post-content table td {
+    @apply border border-gray-300 p-2;
+}
+
+.post-content table th {
+    @apply bg-blue-600 text-white text-left;
+}
+
+.post-content table tr:nth-child(even) {
+    @apply bg-gray-100;
+}
+
+.post-content table tr:hover {
+    @apply bg-gray-200;
+}
+
+.post-content img {
+    @apply max-w-full h-auto block my-4;
+}
